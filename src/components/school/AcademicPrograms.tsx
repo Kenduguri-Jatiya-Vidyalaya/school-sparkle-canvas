@@ -96,17 +96,10 @@ export const AcademicPrograms = () => {
       description: "For aspiring doctors, engineers, and scientists",
     },
     {
-      icon: <Calculator className="w-7 h-7 text-white" />,
-      stream: "Commerce Stream",
-      color: "bg-gradient-to-br from-green-500 to-emerald-600",
-      subjects: ["Accountancy", "Business Studies", "Economics", "Mathematics"],
-      description: "Building future business leaders and entrepreneurs",
-    },
-    {
       icon: <Palette className="w-7 h-7 text-white" />,
       stream: "Arts Stream",
       color: "bg-gradient-to-br from-purple-500 to-purple-600",
-      subjects: ["History", "Political Science", "Economics", "Assamese"],
+      subjects: ["Education", "Political Science", "Economics", "Assamese","Sociology", "History","Geography"],
       description: "Exploring humanities and social sciences",
     },
   ];
@@ -114,10 +107,6 @@ export const AcademicPrograms = () => {
   const generalSubjects = [
     "English",
     "Assamese",
-    "Hindi",
-    "Environmental Studies",
-    "Computer Science",
-    "Physical Education",
   ];
 
   return (

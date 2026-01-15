@@ -26,8 +26,8 @@ const StatCard = ({ icon, value, label, delay }: StatCardProps) => {
       <div className="w-12 h-12 mx-auto mb-3 bg-primary/20 rounded-full flex items-center justify-center">
         {icon}
       </div>
-      <div className="text-2xl md:text-3xl font-bold text-white mb-1">{value}</div>
-      <div className="text-sm text-white/80">{label}</div>
+      <div className="text-2xl md:text-3xl font-bold text-primary mb-1">{value}</div>
+      <div className="text-sm text-primary/80">{label}</div>
     </div>
   );
 };
@@ -78,7 +78,7 @@ export const HeroSection = () => {
             <Button size="lg" className="bg-white text-primary hover:bg-white/90 font-semibold px-8">
               Explore Programs
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/20 font-semibold px-8">
+            <Button size="lg" variant="outline" className="border-white text-primary hover:bg-white/20 font-semibold px-8">
               Virtual Tour
             </Button>
           </div>
@@ -93,13 +93,13 @@ export const HeroSection = () => {
             />
             <StatCard
               icon={<Users className="w-6 h-6 text-primary" />}
-              value="441+"
+              value="500+"
               label="Students Enrolled"
               delay={800}
             />
             <StatCard
               icon={<BookOpen className="w-6 h-6 text-primary" />}
-              value="25"
+              value="27"
               label="Expert Teachers"
               delay={1000}
             />

@@ -36,8 +36,8 @@ export const Navbar = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <a href="#home" className="flex items-center gap-2">
-            <div className="w-10 h-10 md:w-12 md:h-12 bg-primary rounded-full flex items-center justify-center">
-              <GraduationCap className="w-6 h-6 md:w-7 md:h-7 text-primary-foreground" />
+            <div className="w-12 h-12 md:w-12 md:h-12 bg- rounded-full flex items-center justify-center">
+              <img src="https://i.ibb.co/wFZmgC7q/kjb-logo.png" alt="kjb logo" />
             </div>
             <div className="hidden sm:block">
               <h1 className={`font-serif font-bold text-lg md:text-xl ${isScrolled ? "text-foreground" : "text-white"}`}>
