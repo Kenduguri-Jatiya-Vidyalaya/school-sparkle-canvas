@@ -38,7 +38,7 @@ export const PrincipalMessage = () => {
                 <div className="absolute -inset-4 bg-gradient-to-br from-primary to-accent rounded-full opacity-20 blur-xl" />
                 <div className="relative w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-primary/20 shadow-2xl">
                   <img
-                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                    src="https://i.ibb.co/V6Nh7pS/poly-hazarika.jpg"
                     alt="Principal"
                     className="w-full h-full object-cover"
                   />
@@ -52,7 +52,7 @@ export const PrincipalMessage = () => {
             {/* Message Content */}
             <div className="md:col-span-3">
               <span className="inline-block px-4 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium mb-4">
-                Principal's Message
+                School Principal's Message
               </span>
               <h2 className="font-serif text-2xl md:text-3xl lg:text-4xl font-bold text-foreground mb-6">
                 Shaping Tomorrow's Leaders Today
@@ -73,7 +73,7 @@ export const PrincipalMessage = () => {
               <div className="mt-8 flex items-center gap-4">
                 <div className="w-16 h-0.5 bg-primary" />
                 <div>
-                  <p className="font-serif font-semibold text-foreground">Principal</p>
+                  <p className="font-serif font-semibold text-foreground">Poly Hazarika Bora ,School Principal</p>
                   <p className="text-sm text-muted-foreground">Kenduguri Jatiya Vidyalaya</p>
                 </div>
               </div>

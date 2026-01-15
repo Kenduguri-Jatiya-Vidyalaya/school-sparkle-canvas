@@ -11,6 +11,7 @@ import { FieldTrips } from "@/components/school/FieldTrips";
 import { EventsGallery } from "@/components/school/EventsGallery";
 import { SchoolTimeline } from "@/components/school/SchoolTimeline";
 import { ContactSection, Footer } from "@/components/school/ContactSection";
+import { HsPrincipalMessage } from "@/components/school/HSPrincipalMessage";
 
 const Index = () => {
   return (
@@ -19,6 +20,7 @@ const Index = () => {
       <HeroSection />
       <AboutSection />
       <PrincipalMessage />
+      <HsPrincipalMessage/>
       <StudentJourney />
       <AcademicPrograms />
       <Facilities />
