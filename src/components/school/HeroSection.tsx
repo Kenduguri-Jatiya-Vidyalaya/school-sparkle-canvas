@@ -99,7 +99,7 @@ export const HeroSection = () => {
             />
             <StatCard
               icon={<BookOpen className="w-6 h-6 text-primary" />}
-              value="25"
+              value="27"
               label="Expert Teachers"
               delay={1000}
             />
