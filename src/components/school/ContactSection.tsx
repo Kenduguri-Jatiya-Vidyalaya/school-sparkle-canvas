@@ -131,10 +131,11 @@ export const ContactSection = () => {
 
             {/* Map Placeholder */}
             <div className="bg-muted rounded-2xl h-64 flex items-center justify-center overflow-hidden">
-              <div className="text-center">
-                <MapPin className="w-12 h-12 text-primary mx-auto mb-2" />
-                <p className="text-muted-foreground">Kenduguri, Golaghat, Assam</p>
-                <p className="text-sm text-muted-foreground mt-1">Interactive map coming soon</p>
+              <div className="text-center w-full h-full">
+                {/* <MapPin className="w-12 h-12 text-primary mx-auto mb-2" /> */}
+                {/* <p className="text-muted-foreground">Kenduguri, Golaghat, Assam</p> */}
+                {/* <p className="text-sm text-muted-foreground mt-1">Interactive map coming soon</p> */}
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3562.227490605319!2d94.23647207543456!3d26.769017476733197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3746dd2e02dcdca7%3A0xddddd2a58e386c3d!2sKenduguri%20Jatiya%20Vidyalaya!5e0!3m2!1sen!2sin!4v1768545968018!5m2!1sen!2sin" className="w-full h-full border-0"></iframe>
               </div>
             </div>
           </div>
