@@ -65,7 +65,7 @@ export const HeroSection = () => {
           {/* Main Title */}
           <h1 className="font-serif text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 animate-slide-up">
             Kenduguri Jatiya
-            <span className="block mt-2">Vidyalaya</span>
+            <span className="block mt-2">Bidyalaya</span>
           </h1>
 
           {/* Subtitle */}
@@ -75,12 +75,11 @@ export const HeroSection = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16 animate-slide-up" style={{ animationDelay: "0.4s" }}>
-            <Button size="lg" className="bg-white text-primary hover:bg-white/90 font-semibold px-8">
-              Explore Programs
-            </Button>
-            <Button size="lg" variant="outline" className="border-white text-primary hover:bg-white/20 font-semibold px-8">
-              Virtual Tour
-            </Button>
+            <a href="#student-journey">
+              <Button size="lg" className="bg-white text-primary hover:bg-white/90 font-semibold px-8">
+                Explore Programs
+              </Button>
+            </a>
           </div>
 
           {/* Stats */}
@@ -99,7 +98,7 @@ export const HeroSection = () => {
             />
             <StatCard
               icon={<BookOpen className="w-6 h-6 text-primary" />}
-              value="27"
+              value="24"
               label="Expert Teachers"
               delay={1000}
             />

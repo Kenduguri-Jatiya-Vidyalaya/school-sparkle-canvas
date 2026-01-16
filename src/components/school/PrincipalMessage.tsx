@@ -62,7 +62,7 @@ export const PrincipalMessage = () => {
                 <Quote className="absolute -top-4 -left-4 w-12 h-12 text-primary/10" />
                 <blockquote className="text-muted-foreground text-lg leading-relaxed pl-4 border-l-4 border-primary">
                   <p className="mb-4">
-                    "At Kenduguri Jatiya Vidyalaya, we believe in nurturing not just academic excellence but also character, creativity, and compassion. Our mission is to provide an environment where every student can discover their potential and grow into responsible citizens."
+                    "At Kenduguri Jatiya Bidyalaya, we believe in nurturing not just academic excellence but also character, creativity, and compassion. Our mission is to provide an environment where every student can discover their potential and grow into responsible citizens."
                   </p>
                   <p>
                     "Education is the most powerful tool we can give to our children. We are committed to making quality education accessible to all students in our community, ensuring no dream remains unfulfilled."
@@ -73,8 +73,8 @@ export const PrincipalMessage = () => {
               <div className="mt-8 flex items-center gap-4">
                 <div className="w-16 h-0.5 bg-primary" />
                 <div>
-                  <p className="font-serif font-semibold text-foreground">Poly Hazarika Bora ,School Principal</p>
-                  <p className="text-sm text-muted-foreground">Kenduguri Jatiya Vidyalaya</p>
+                  <p className="font-serif font-semibold text-foreground">Poly Hazarika Bora, School Principal</p>
+                  <p className="text-sm text-muted-foreground">Kenduguri Jatiya Bidyalaya</p>
                 </div>
               </div>
             </div>

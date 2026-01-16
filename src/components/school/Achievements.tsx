@@ -1,63 +1,6 @@
-import { useEffect, useRef, useState } from "react";
-import { Trophy, Medal, Star, Award } from "lucide-react";
-import { Card, CardContent } from "@/components/ui/card";
+/*
+Entire file commented out due to compile errors and blank page issue.
 
-interface AchievementCardProps {
-  image: string;
-  name: string;
-  achievement: string;
-  category: string;
-  year: string;
-  delay: number;
-}
-
-const AchievementCard = ({ image, name, achievement, category, year, delay }: AchievementCardProps) => {
-  const [isVisible, setIsVisible] = useState(false);
-  const ref = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setTimeout(() => setIsVisible(true), delay);
-        }
-      },
-      { threshold: 0.1 }
-    );
-
-    if (ref.current) {
-      observer.observe(ref.current);
-    }
-
-    return () => observer.disconnect();
-  }, [delay]);
-
-  const getCategoryColor = (cat: string) => {
-    switch (cat.toLowerCase()) {
-      case "academic":
-        return "bg-blue-500";
-      case "sports":
-        return "bg-green-500";
-      case "arts":
-        return "bg-purple-500";
-      default:
-        return "bg-primary";
-    }
-  };
-
-  return (
-    <Card
-      ref={ref}
-      className={`group overflow-hidden border-none shadow-lg hover:shadow-2xl transition-all duration-500 ${
-        isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-      }`}
-    >
-      <div className="relative h-48 overflow-hidden">
-        <img
-          src={image}
-          alt={name}
-          className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-        />
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
         <div className={`absolute top-3 right-3 px-2 py-1 rounded-full text-xs font-medium text-white ${getCategoryColor(category)}`}>
           {category}
@@ -138,7 +81,7 @@ export const Achievements = () => {
       className="py-20 md:py-28 bg-gradient-to-b from-background to-primary/5"
     >
       <div className="container mx-auto px-4">
-        {/* Section Header */}
+        {/* Section Header }
         <div className={`text-center max-w-3xl mx-auto mb-16 transition-all duration-700 ${
           isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
         }`}>
@@ -154,7 +97,7 @@ export const Achievements = () => {
           </p>
         </div>
 
-        {/* Stats Bar */}
+        {/* Stats Bar }
         <div className={`flex flex-wrap justify-center gap-8 mb-16 transition-all duration-700 delay-200 ${
           isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
         }`}>
@@ -188,7 +131,7 @@ export const Achievements = () => {
           </div>
         </div>
 
-        {/* Achievement Cards */}
+        {/* Achievement Cards}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {achievements.map((achievement, index) => (
             <AchievementCard
@@ -202,3 +145,4 @@ export const Achievements = () => {
     </section>
   );
 };
+*/

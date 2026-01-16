@@ -62,7 +62,7 @@ export const HsPrincipalMessage = () => {
                 <Quote className="absolute -top-4 -left-4 w-12 h-12 text-primary/10" />
                 <blockquote className="text-muted-foreground text-lg leading-relaxed pl-4 border-l-4 border-primary">
                   <p className="mb-4">
-                    Education is not merely the acquisition of academic excellence; it is the holistic development of a student’s intellect, ethics, and social responsibility. At Kenduguri Jatiya Vidyalaya, we strive to create an environment that inspires curiosity, critical thinking, creativity, and discipline among our learners.
+                    Education is not merely the acquisition of academic excellence; it is the holistic development of a student’s intellect, ethics, and social responsibility. At Kenduguri Jatiya Bidyalaya, we strive to create an environment that inspires curiosity, critical thinking, creativity, and discipline among our learners.
                   </p>
                   <p>
                     "Rooted in the rich cultural heritage of Assam and guided by modern educational practices, our dedicated faculty works tirelessly to mentor students academically and morally. We emphasize integrity, respect, hard work, and service to society, ensuring that our students are well-prepared to face global challenges while staying connected to their roots."
@@ -73,8 +73,8 @@ export const HsPrincipalMessage = () => {
               <div className="mt-8 flex items-center gap-4">
                 <div className="w-16 h-0.5 bg-primary" />
                 <div>
-                  <p className="font-serif font-semibold text-foreground">Dipalima Duwarah Chaliha , HS Principal</p>
-                  <p className="text-sm text-muted-foreground">Kenduguri Jatiya Vidyalaya</p>
+                  <p className="font-serif font-semibold text-foreground">Dipalima Duwarah Chaliha, HS Principal</p>
+                  <p className="text-sm text-muted-foreground">Kenduguri Jatiya Bidyalaya</p>
                 </div>
               </div>
             </div>
