@@ -38,7 +38,7 @@ export const PrincipalMessage = () => {
                 <div className="absolute -inset-4 bg-gradient-to-br from-primary to-accent rounded-full opacity-20 blur-xl" />
                 <div className="relative w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-primary/20 shadow-2xl">
                   <img
-                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                    src="https://i.ibb.co/V6Nh7pS/poly-hazarika.jpg"
                     alt="Principal"
                     className="w-full h-full object-cover"
                   />
@@ -52,7 +52,7 @@ export const PrincipalMessage = () => {
             {/* Message Content */}
             <div className="md:col-span-3">
               <span className="inline-block px-4 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium mb-4">
-                Principal's Message
+                School Principal's Message
               </span>
               <h2 className="font-serif text-2xl md:text-3xl lg:text-4xl font-bold text-foreground mb-6">
                 Shaping Tomorrow's Leaders Today
@@ -62,7 +62,7 @@ export const PrincipalMessage = () => {
                 <Quote className="absolute -top-4 -left-4 w-12 h-12 text-primary/10" />
                 <blockquote className="text-muted-foreground text-lg leading-relaxed pl-4 border-l-4 border-primary">
                   <p className="mb-4">
-                    "At Kenduguri Jatiya Vidyalaya, we believe in nurturing not just academic excellence but also character, creativity, and compassion. Our mission is to provide an environment where every student can discover their potential and grow into responsible citizens."
+                    "At Kenduguri Jatiya Bidyalaya, we believe in nurturing not just academic excellence but also character, creativity, and compassion. Our mission is to provide an environment where every student can discover their potential and grow into responsible citizens."
                   </p>
                   <p>
                     "Education is the most powerful tool we can give to our children. We are committed to making quality education accessible to all students in our community, ensuring no dream remains unfulfilled."
@@ -73,8 +73,8 @@ export const PrincipalMessage = () => {
               <div className="mt-8 flex items-center gap-4">
                 <div className="w-16 h-0.5 bg-primary" />
                 <div>
-                  <p className="font-serif font-semibold text-foreground">Principal</p>
-                  <p className="text-sm text-muted-foreground">Kenduguri Jatiya Vidyalaya</p>
+                  <p className="font-serif font-semibold text-foreground">Poly Hazarika Bora, School Principal</p>
+                  <p className="text-sm text-muted-foreground">Kenduguri Jatiya Bidyalaya</p>
                 </div>
               </div>
             </div>

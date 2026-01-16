@@ -86,7 +86,7 @@ export const SchoolTimeline = () => {
       year: "2000",
       icon: <Flag className="w-6 h-6 text-primary-foreground" />,
       title: "School Established",
-      description: "Kenduguri Jatiya Vidyalaya was founded with a vision to provide quality education in rural Assam.",
+      description: "Kenduguri Jatiya Bidyalaya was founded with a vision to provide quality education in rural Assam.",
     },
     {
       year: "2005",
@@ -107,7 +107,7 @@ export const SchoolTimeline = () => {
       description: "Achieved 100% pass rate in HSLC examination for the first time.",
     },
     {
-      year: "2020",
+      year: "2022",
       icon: <GraduationCap className="w-6 h-6 text-primary-foreground" />,
       title: "Higher Secondary Added",
       description: "Expanded to include Higher Secondary education with Science, Commerce, and Arts streams.",

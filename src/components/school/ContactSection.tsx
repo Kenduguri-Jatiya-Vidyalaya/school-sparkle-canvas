@@ -29,17 +29,17 @@ export const ContactSection = () => {
     {
       icon: <MapPin className="w-5 h-5" />,
       title: "Address",
-      content: "Kenduguri, Golaghat District, Assam, India",
+      content: "Kenduguri, Jorhat District, Assam, India",
     },
     {
       icon: <Phone className="w-5 h-5" />,
       title: "Phone",
-      content: "+91 XXXXX XXXXX",
+      content: "+91 7002112276",
     },
     {
       icon: <Mail className="w-5 h-5" />,
       title: "Email",
-      content: "info@kjvidyalaya.edu.in",
+      content: "kendugurijatiyabidyalaya2000@gmail.com",
     },
     {
       icon: <Clock className="w-5 h-5" />,
@@ -168,22 +168,10 @@ export const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8 mb-12">
           {/* Brand */}
           <div className="md:col-span-2">
-            <h3 className="font-serif text-2xl font-bold mb-4">Kenduguri Jatiya Vidyalaya</h3>
+            <h3 className="font-serif text-2xl font-bold mb-4">Kenduguri Jatiya Bidyalaya</h3>
             <p className="text-background/70 mb-6 max-w-md">
               Committed to providing quality education and nurturing young minds for a brighter future since 2000.
             </p>
-            <div className="flex gap-3">
-              {socialLinks.map((social) => (
-                <a
-                  key={social.label}
-                  href={social.href}
-                  className="w-10 h-10 bg-background/10 hover:bg-primary rounded-full flex items-center justify-center transition-colors"
-                  aria-label={social.label}
-                >
-                  {social.icon}
-                </a>
-              ))}
-            </div>
           </div>
 
           {/* Quick Links */}
@@ -209,15 +197,15 @@ export const Footer = () => {
             <ul className="space-y-3 text-background/70">
               <li className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 mt-1 flex-shrink-0" />
-                <span>Kenduguri, Golaghat District, Assam, India</span>
+                <span>Kenduguri, Jorhat District, Assam, India</span>
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="w-4 h-4 flex-shrink-0" />
-                <span>+91 XXXXX XXXXX</span>
+                <span>+91 7002112276</span>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4 flex-shrink-0" />
-                <span>info@kjvidyalaya.edu.in</span>
+                <span>kendugurijatiyabidyalaya2000@gmail.com</span>
               </li>
             </ul>
           </div>
@@ -226,7 +214,7 @@ export const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-background/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-background/50 text-sm">
-            © 2025 Kenduguri Jatiya Vidyalaya. All rights reserved.
+            © 2025 Kenduguri Jatiya Bidyalaya. All rights reserved.
           </p>
           <p className="text-background/50 text-sm">
             Affiliated to SEBA, Assam

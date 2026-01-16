@@ -120,6 +120,7 @@ export const StudentJourney = () => {
 
   return (
     <section
+      id="student-journey"
       ref={sectionRef}
       className="py-20 md:py-28 bg-gradient-to-b from-muted/50 to-background overflow-hidden"
     >
@@ -168,7 +169,7 @@ export const StudentJourney = () => {
               <p className="text-xs text-muted-foreground">Years of Education</p>
             </div>
             <div className="text-center border-r border-border pr-4">
-              <p className="text-2xl font-bold text-primary">3</p>
+              <p className="text-2xl font-bold text-primary">2</p>
               <p className="text-xs text-muted-foreground">Streams Available</p>
             </div>
             <div className="text-center">

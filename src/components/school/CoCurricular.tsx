@@ -83,7 +83,7 @@ export const CoCurricular = () => {
     {
       icon: <Music className="w-7 h-7 text-white" />,
       title: "Music & Dance",
-      activities: ["Bihu Dance", "Classical Music", "Folk Songs", "Drama Club"],
+      activities: ["Bihu Dance", "Sattriya Dance", "Classical Music", "Folk Songs", "Drama Club"],
       color: "bg-gradient-to-br from-pink-500 to-rose-600",
     },
     {
@@ -93,22 +93,10 @@ export const CoCurricular = () => {
       color: "bg-gradient-to-br from-purple-500 to-violet-600",
     },
     {
-      icon: <Trophy className="w-7 h-7 text-white" />,
-      title: "Sports",
-      activities: ["Cricket", "Football", "Athletics", "Indoor Games"],
-      color: "bg-gradient-to-br from-green-500 to-emerald-600",
-    },
-    {
       icon: <BookOpen className="w-7 h-7 text-white" />,
       title: "Literary",
       activities: ["Debate", "Quiz", "Essay Writing", "Recitation"],
       color: "bg-gradient-to-br from-blue-500 to-blue-600",
-    },
-    {
-      icon: <Users className="w-7 h-7 text-white" />,
-      title: "Social Service",
-      activities: ["NSS", "Scouts & Guides", "Community Service", "Awareness Camps"],
-      color: "bg-gradient-to-br from-amber-500 to-orange-600",
     },
     {
       icon: <Leaf className="w-7 h-7 text-white" />,
