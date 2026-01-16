@@ -65,7 +65,7 @@ export const HeroSection = () => {
           {/* Main Title */}
           <h1 className="font-serif text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 animate-slide-up">
             Kenduguri Jatiya
-            <span className="block mt-2">Bidyalaya</span>
+            <span className="block mt-2">Vidyalaya</span>
           </h1>
 
           {/* Subtitle */}

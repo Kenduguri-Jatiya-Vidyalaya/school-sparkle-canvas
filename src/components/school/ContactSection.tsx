@@ -71,44 +71,6 @@ export const ContactSection = () => {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12">
-          {/* Contact Form */}
-          <div className={`transition-all duration-700 delay-200 ${
-            isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-8"
-          }`}>
-            <div className="bg-card border border-border rounded-2xl p-8">
-              <h3 className="font-semibold text-foreground text-xl mb-6">Send us a message</h3>
-              <form className="space-y-4">
-                <div className="grid sm:grid-cols-2 gap-4">
-                  <div>
-                    <label className="text-sm text-muted-foreground mb-2 block">Your Name</label>
-                    <Input placeholder="John Doe" />
-                  </div>
-                  <div>
-                    <label className="text-sm text-muted-foreground mb-2 block">Phone Number</label>
-                    <Input placeholder="+91 XXXXX XXXXX" />
-                  </div>
-                </div>
-                <div>
-                  <label className="text-sm text-muted-foreground mb-2 block">Email Address</label>
-                  <Input type="email" placeholder="you@example.com" />
-                </div>
-                <div>
-                  <label className="text-sm text-muted-foreground mb-2 block">Subject</label>
-                  <Input placeholder="Admission Inquiry" />
-                </div>
-                <div>
-                  <label className="text-sm text-muted-foreground mb-2 block">Message</label>
-                  <Textarea placeholder="Write your message here..." rows={4} />
-                </div>
-                <Button className="w-full bg-primary hover:bg-primary-dark text-primary-foreground">
-                  <Send className="w-4 h-4 mr-2" />
-                  Send Message
-                </Button>
-              </form>
-            </div>
-          </div>
-
           {/* Contact Info & Map */}
           <div className={`transition-all duration-700 delay-400 ${
             isVisible ? "opacity-100 translate-x-0" : "opacity-0 translate-x-8"
@@ -140,7 +102,6 @@ export const ContactSection = () => {
             </div>
           </div>
         </div>
-      </div>
     </section>
   );
 };
@@ -168,7 +129,7 @@ export const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8 mb-12">
           {/* Brand */}
           <div className="md:col-span-2">
-            <h3 className="font-serif text-2xl font-bold mb-4">Kenduguri Jatiya Bidyalaya</h3>
+            <h3 className="font-serif text-2xl font-bold mb-4">Kenduguri Jatiya Vidyalaya</h3>
             <p className="text-background/70 mb-6 max-w-md">
               Committed to providing quality education and nurturing young minds for a brighter future since 2000.
             </p>
@@ -214,7 +175,7 @@ export const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-background/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-background/50 text-sm">
-            © 2025 Kenduguri Jatiya Bidyalaya. All rights reserved.
+            © 2025 Kenduguri Jatiya Vidyalaya. All rights reserved.
           </p>
           <p className="text-background/50 text-sm">
             Affiliated to SEBA, Assam

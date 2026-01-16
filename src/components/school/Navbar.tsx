@@ -35,11 +35,11 @@ export const Navbar = () => {
           {/* Logo */}
           <a href="#home" className="flex items-center gap-2">
             <div className="w-12 h-12 md:w-12 md:h-12 bg- rounded-full flex items-center justify-center">
-              <img src="https://ibb.co/Mx1k29x7" alt="kjb logo" />
+              <img src="/kjb_logo.png" alt="kjb logo" />
             </div>
             <div className="hidden sm:block">
               <h1 className={`font-serif font-bold text-lg md:text-xl ${isScrolled ? "text-foreground" : "text-white"}`}>
-                Kenduguri Jatiya Bidyalaya
+                Kenduguri Jatiya Vidyalaya
               </h1>
               <p className={`text-xs ${isScrolled ? "text-muted-foreground" : "text-white/80"}`}>
                 Excellence in Education Since 2000

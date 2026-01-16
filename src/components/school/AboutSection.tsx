@@ -121,7 +121,7 @@ export const AboutSection = () => {
             <span className="text-primary"> Rural Assam</span>
           </h2>
           <p className="text-muted-foreground text-lg leading-relaxed">
-            Kenduguri Jatiya Bidyalaya was established in 2000 as a co-educational private school under the Board of Secondary Education, Assam. We are committed to providing quality education while preserving our rich cultural heritage.
+            Kenduguri Jatiya Vidyalaya was established in 2000 as a co-educational private school under the Board of Secondary Education, Assam. We are committed to providing quality education while preserving our rich cultural heritage.
           </p>
         </div>
 

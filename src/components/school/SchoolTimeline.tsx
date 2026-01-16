@@ -86,7 +86,7 @@ export const SchoolTimeline = () => {
       year: "2000",
       icon: <Flag className="w-6 h-6 text-primary-foreground" />,
       title: "School Established",
-      description: "Kenduguri Jatiya Bidyalaya was founded with a vision to provide quality education in rural Assam.",
+      description: "Kenduguri Jatiya Vidyalaya was founded with a vision to provide quality education in rural Assam.",
     },
     {
       year: "2005",

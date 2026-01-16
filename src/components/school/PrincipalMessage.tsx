@@ -38,7 +38,7 @@ export const PrincipalMessage = () => {
                 <div className="absolute -inset-4 bg-gradient-to-br from-primary to-accent rounded-full opacity-20 blur-xl" />
                 <div className="relative w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-primary/20 shadow-2xl">
                   <img
-                    src="https://i.ibb.co/V6Nh7pS/poly-hazarika.jpg"
+                    src="https://i.ibb.co/rKcXH1vR/school.jpg"
                     alt="Principal"
                     className="w-full h-full object-cover"
                   />
@@ -62,7 +62,7 @@ export const PrincipalMessage = () => {
                 <Quote className="absolute -top-4 -left-4 w-12 h-12 text-primary/10" />
                 <blockquote className="text-muted-foreground text-lg leading-relaxed pl-4 border-l-4 border-primary">
                   <p className="mb-4">
-                    "At Kenduguri Jatiya Bidyalaya, we believe in nurturing not just academic excellence but also character, creativity, and compassion. Our mission is to provide an environment where every student can discover their potential and grow into responsible citizens."
+                    "At Kenduguri Jatiya Vidyalaya, we believe in nurturing not just academic excellence but also character, creativity, and compassion. Our mission is to provide an environment where every student can discover their potential and grow into responsible citizens."
                   </p>
                   <p>
                     "Education is the most powerful tool we can give to our children. We are committed to making quality education accessible to all students in our community, ensuring no dream remains unfulfilled."
@@ -74,7 +74,7 @@ export const PrincipalMessage = () => {
                 <div className="w-16 h-0.5 bg-primary" />
                 <div>
                   <p className="font-serif font-semibold text-foreground">Poly Hazarika Bora, School Principal</p>
-                  <p className="text-sm text-muted-foreground">Kenduguri Jatiya Bidyalaya</p>
+                  <p className="text-sm text-muted-foreground">Kenduguri Jatiya Vidyalaya</p>
                 </div>
               </div>
             </div>
