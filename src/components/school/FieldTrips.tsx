@@ -85,29 +85,23 @@ export const FieldTrips = () => {
 
   const trips = [
     {
-      image: "https://images.unsplash.com/photo-1506461883276-594a12b1c52c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      title: "Kaziranga National Park",
-      location: "Golaghat, Assam",
+      image: "https://i.ibb.co/1f73051z/siv-visit.png",
+      title: "Sivsagar Visit",
+      location: "Sivsagar, Assam",
+      year: "2019",
+    },
+    {
+      image: "https://i.ibb.co/xqcPHMN3/siv-visit-koyal.png",
+      title: "Sivsagar Visit",
+      location: "Sivsagar, Assam",
+      year: "2018",
+    },
+    {
+      image: "https://i.ibb.co/spHqSndk/FB-IMG-1768628108070.jpg",
+      title: "Tezpur Excursion",
+      location: "Tezpur,Assam",
       year: "2024",
-    },
-    {
-      image: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      title: "Kamakhya Temple Visit",
-      location: "Guwahati, Assam",
-      year: "2023",
-    },
-    {
-      image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      title: "Shillong Excursion",
-      location: "Meghalaya",
-      year: "2023",
-    },
-    {
-      image: "https://images.unsplash.com/photo-1433086966358-54859d0ed716?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      title: "Science Museum Tour",
-      location: "Guwahati, Assam",
-      year: "2024",
-    },
+    }
   ];
 
   return (
