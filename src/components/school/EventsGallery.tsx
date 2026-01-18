@@ -81,43 +81,116 @@ export const EventsGallery = () => {
   }, []);
 
   const events = [
-    {
-      image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      title: "Annual Day Celebration",
-      date: "December 2024",
-      category: "Annual",
-    },
-    {
-      image: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      title: "Independence Day",
-      date: "August 2024",
-      category: "National",
-    },
-    {
-      image: "https://images.unsplash.com/photo-1511578314322-379afb476865?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      title: "Bihu Celebration",
-      date: "April 2024",
-      category: "Cultural",
-    },
-    {
-      image: "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      title: "Sports Day",
-      date: "January 2024",
-      category: "Sports",
-    },
-    {
-      image: "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      title: "Science Exhibition",
-      date: "November 2024",
-      category: "Academic",
-    },
-    {
-      image: "https://images.unsplash.com/photo-1577896851231-70ef18881754?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      title: "Teacher's Day",
-      date: "September 2024",
-      category: "Cultural",
-    },
-  ];
+  {
+    image: "https://i.ibb.co/dwck2W0H/IMG-20260118-WA0002.jpg",
+    title: "Silver Jubilee Closing Ceremony",
+    date: "January 2026",
+    category: "Celebration",
+  },
+  {
+    image: "https://i.ibb.co/8g9NrPVD/IMG-20260118-WA0249.jpg",
+    title: "Silver Jubilee Closing Ceremony",
+    date: "January 2026",
+    category: "Celebration",
+  },
+  {
+    image: "https://i.ibb.co/XcdSfbx/FB-IMG-1768564865601.jpg",
+    title: "Children's Day Celebration",
+    date: "November 2025",
+    category: "Cultural",
+  },
+  {
+    image: "https://i.ibb.co/s9NTC8GW/FB-IMG-1768564885744.jpg",
+    title: "Tribute to Zubeen Daa",
+    date: "September 2025",
+    category: "Cultural",
+  },
+  {
+    image: "https://i.ibb.co/mVBqzhHj/FB-IMG-1768564928043.jpg",
+    title: "Quiz Competition",
+    date: "August 2025",
+    category: "Competition",
+  },
+  {
+    image: "https://i.ibb.co/zWYGHVT3/FB-IMG-1768565014555.jpg",
+    title: "Spritual Awareness Camp",
+    date: "April 2025",
+    category: "Awareness",
+  },
+  {
+    image: "https://i.ibb.co/V6WMzpP/silver-jubilee-celebration.png",
+    title: "Silver Jubilee Celebration",
+    date: "January 2025",
+    category: "Celebration",
+  },
+  {
+    image: "https://i.ibb.co/n49ZgyY/FB-IMG-1768726662224.jpg",
+    title: "Drama Workshop",
+    date: "July 2024",
+    category: "Cultural",
+  },
+  {
+    image: "https://i.ibb.co/yn6mdGjn/FB-IMG-1768565329821.jpg",
+    title: "Magh Bihu",
+    date: "January 2024",
+    category: "Festival",
+  },
+  {
+    image: "https://i.ibb.co/WNH4ZXm3/FB-IMG-1768565418438.jpg",
+    title: "Singing Competition",
+    date: "June 2022",
+    category: "Cultural",
+  },
+  {
+    image: "https://i.ibb.co/cKz5Frkr/FB-IMG-1768565432586.jpga",
+    title: "Bohag Bihu",
+    date: "April 2022",
+    category: "Festival",
+  },
+  {
+    image: "https://i.ibb.co/SXD1rVmt/FB-IMG-1768565619027.jpg",
+    title: "Independence Day",
+    date: "August 2021",
+    category: "National",
+  },
+  {
+    image: "https://scontent.fgau3-5.fna.fbcdn.net/v/t39.30808-6/476450578_1217007297097186_9028503561146282283_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=86c6b0&_nc_ohc=B6qasqWDrycQ7kNvwHKS9qw&_nc_oc=AdlZL15p9mZUOFyMuPmza25KQsSf2422j6BlBNfbf4EcufoVncg4alKofzNFE04qMMisUwKfb7gzLGMst3GmWU2F&_nc_zt=23&_nc_ht=scontent.fgau3-5.fna&_nc_gid=RUd9ovUISEhZG74WeoFANA&oh=00_AfoeaWYopkgodM2j1yH8tLpeDw1JOQvT9_Mk2_Wg3yc31Q&oe=6972617F",
+    title: "Annual Day",
+    date: "January 2021",
+    category: "Annual",
+  },
+  {
+    image: "https://i.ibb.co/FLM75SPv/FB-IMG-1768565732951.jpg",
+    title: "Fency Dress Competition",
+    date: "February 2020",
+    category: "Competition",
+  },
+  {
+    image: "https://i.ibb.co/chPmWy1P/Whats-App-Image-2026-01-18-at-2-41-57-PM.jpg",
+    title: "Dance Competition",
+    date: "February 2020",
+    category: "Cultural",
+  },
+  {
+    image: "https://i.ibb.co/RkXFKSyP/FB-IMG-1768565674971.jpg",
+    title: "National Science Day",
+    date: "February 2020",
+    category: "National",
+  },
+  {
+    image: "https://i.ibb.co/tMBZmGsQ/FB-IMG-1768565863340.jpg",
+    title: "Health Camp",
+    date: "October 2019",
+    category: "Awareness",
+  },
+  {
+    image: "https://i.ibb.co/dJ5jyGS8/FB-IMG-1768565945052.jpg",
+    title: "Bhaona",
+    date: "January 2019",
+    category: "Cultural",
+  }
+];
+
 
   return (
     <section
